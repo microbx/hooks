@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "prepush": "node ./hooks/prepush.js"
+    "push-changes": "node ./scripts/push-changes.js"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
