@@ -1,6 +1,15 @@
 {
   "name": "microbe-hooks",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepush": "node ./hooks/prepush.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "shelljs": "^0.7.8"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3"
+  }
 }
